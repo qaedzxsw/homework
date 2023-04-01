@@ -3,7 +3,6 @@ package com.example.myapplication
 import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
@@ -22,6 +21,7 @@ class MainActivity : AppCompatActivity() {
         val textView: TextView = findViewById(R.id.text_view)
         val button1: Button = findViewById(R.id.button1)
         val button2: Button = findViewById(R.id.button2)
+
         val viewPager: ViewPager = findViewById(R.id.view_pager)
         val adapter = ImageAdapter(this)
         viewPager.adapter = adapter
