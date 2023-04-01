@@ -42,4 +42,14 @@
         android:layout_marginLeft="20dp"
         android:layout_alignParentLeft="true"
         android:text="姓名" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="354dp"
+        android:layout_below="@+id/text_view"
+        android:layout_marginTop="100dp" />
+
+
+
 </RelativeLayout>
